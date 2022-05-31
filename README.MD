@@ -16,9 +16,9 @@
 <hr>
 <h2>⚜️Funcionalidades:⚜️</h2>
 <ul>
-<li>Mais (+) - Serve para Incrementar um número após cada clique nele</li>;
-<li>Menos (-) - Serve para Decrementar um número após clicar nele</li>;
-<li>Reset - Serve para trazer o estado do contador, para seu estado inicial (0)</li>.
+<li>Mais (+) - Serve para Incrementar um número após cada clique nele;</li>
+<li>Menos (-) - Serve para Decrementar um número após clicar nele;</li>
+<li>Reset - Serve para trazer o estado do contador, para seu estado inicial (0).</li>
 
 
 </ul>
