@@ -1,9 +1,10 @@
+/* Zerando valores padrões */
 *{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
+/* Container main */
 .container-contador{
   width: 100%;
   height: 100vh;
@@ -23,6 +24,7 @@
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
+/* Animação de fundo */
 @keyframes animation-container {
   0%{
     background-size: 100% 140%;
@@ -36,19 +38,19 @@
     background-size: 100% 205%;
   }
 }
-
+/* Titulo do contador */
 .title-contador{
   color: #fff;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-shadow: 1px 1px 1px #000;
 }
-
+/* valor do contador */
 .contador{
   color: #fff;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
   text-shadow:1px 1px 1px #000;
 }
-
+/* Botões para mudar valor do contador */
 .contador-btns>button{
   border:none;
   cursor: pointer;
@@ -62,7 +64,7 @@
   font-size:20px;
   transition: all .2s linear;
 }
-
+/* Animação de hover nos botões do contador */
 .contador-btns>button:hover{
   background-color: #fff;
   color: #000;
